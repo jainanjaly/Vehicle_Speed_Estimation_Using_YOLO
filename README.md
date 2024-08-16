@@ -55,9 +55,19 @@ test/	|-- images/
 		|   |-- ...
 ```
 
-## Model taining
+## Model training
 
- The model training phase of machine learning project,is a pivotal step where we harness the power of our carefully prepared data to train a robust and effective model. This section provides comprehensive guidance on running the model training script, insight into its functionalities, and an overview of the expected results.
+ The model training phase of the machine learning project is a pivotal step where we harness the power of our carefully prepared data to train a robust and effective model. This section provides comprehensive guidance on running the model training script, insight into its functionalities, and an overview of the expected results.
+ 
+#### Example output of the model training:
+ ![image](https://github.com/user-attachments/assets/1c14e47b-cc6c-4831-9d41-d55243b0e6f7)
+
+#### Training results:
+![image](https://github.com/user-attachments/assets/a7d57c78-a1e1-4662-8395-83d14173de94)
+
+![image](https://github.com/user-attachments/assets/24bd19f3-7a20-41c1-8542-157f1fdb2298)
+
+![image](https://github.com/user-attachments/assets/abc45a09-324d-4e0f-932d-0645b70b882c)
 
 ### Execution Instructions
 
@@ -65,7 +75,7 @@ Initiating the model training script is straightforward. Download all the files 
 ```
 python model_training.ipynb
 ```
-Before running the script, ensure all required dependencies are installed as specified in the project documentation. Additionally, customize any configuration parameters within the script to align with your project objectives.
+Before running the script, ensure all required dependencies are installed as specified in the project documentation. Customize any configuration parameters within the script to align with your project objectives.
 
 ### Functionality Overview
 
@@ -73,7 +83,7 @@ The model training script orchestrates an iterative learning process over the pr
 
 ### Expected results
 
-Upon successful execution, expect the script to produce a trained weights file(which will be found in a folder named runs) ready for deployment. The model will have learned from the input data, capturing essential features and relationships, enabling it to make predictions on new, unseen data. The expected results include model performance metrics, such as accuracy and loss, providing insights into the effectiveness of the trained model. These outcomes are critical for evaluating the model's capability to generalize to real-world scenarios and make accurate predictions.
+Upon successful execution, expect the script to produce a trained weights file(found in a folder named runs) ready for deployment. The model will learn from the input data, capturing essential features and relationships and enabling it to make predictions based on new, unseen data. The expected results include model performance metrics, such as accuracy and loss, providing insights into the effectiveness of the trained model. These outcomes are critical for evaluating the model's capability to generalize to real-world scenarios and make accurate predictions.
 
 ## Speed Calculation
 
@@ -93,7 +103,7 @@ The speed estimation script harnesses the power of computer vision, utilizing Op
 
 ### Expected Results
 
-Upon successful execution, expect a comprehensive output. The script generates a full-fledged video showcasing the seamless detection of objects and the simultaneous display of their respective speeds. Additionally, a text file is produced detailing the speed information for each identified vehicle. This holistic approach to speed estimation provides visual insights and creates a structured data output for further analysis and application in diverse domains such as traffic monitoring and law enforcement.
+Upon successful execution, expect a comprehensive output. The script generates a full-fledged video showcasing the seamless detection of objects and the simultaneous display of their respective speeds. A text file is also produced detailing the speed information for each identified vehicle. This holistic approach to speed estimation provides visual insights and creates a structured data output for further analysis and application in diverse domains such as traffic monitoring and law enforcement.
 
 ## Results
 
