@@ -1,0 +1,4 @@
+train: ../data_preparation/data/MOT/DETRAC/train/images
+val: ../data_preparation/data/MOT/DETRAC/val/images
+nc: 2
+names: ['car','van']
